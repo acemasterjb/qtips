@@ -23,6 +23,12 @@ In the **installation on {system}** links at the bottom, be sure to go through t
 git clone git@github.com:acemasterjb/qtips.git
 ```
 
+### Add the vendor
+Run this command before deploying (and maybe before running `qtsetup` command from the [Prerequisites](#Prerequisites) step):
+```bash
+go mod vendor
+```
+
 ### Deploy the app
 The "app" is defined in main.go for now, to deploy the bindings run:
 ```bash
