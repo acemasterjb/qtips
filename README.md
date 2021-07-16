@@ -6,11 +6,13 @@ The form consits of rows of corresponding labels and inputs. The button does not
 
 ## Prerequisites
 **QT**
+
 Version 5.12.0 was used to compile this project, it was the only one that worked with the goqt bindings. You can download this version from [here](https://download.qt.io/official_releases/qt/5.12/5.12.0/).
 
 Having to create a qt account is part of the process.
 
 **therecipe/qt**
+
 After installing QT, [this document](https://github.com/therecipe/qt/wiki/Installation) and the links at the bottom for your system (linux, windows or macOS) should guide on how to install the go qt mindings.
 
 In the **installation on {system}** links at the bottom, be sure to go through the *Official version (with iOS/Android support)* section to finalize the install
@@ -31,7 +33,9 @@ qtdeploy build desktop
 
 ### Run the app
 For me, my deployed app (linux for linux) was deployed to
-`./deploy/linux/qt_eg`
+
+```./deploy/linux/qt_eg```
+
 Your app name may be different, just be sure to peep what yours was named before running:
 ```bash
 ./deploy/linux/[APP NAME HERE]
